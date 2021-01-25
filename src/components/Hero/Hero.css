@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+.animationStuff {
+  display: flex;
+  height: 100vh;
+  color: #fff;
+}
+
+.introName {
+  margin-bottom: 0.5rem;
+  font-size: 6rem;
+}
+
+.introDescription {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+/* Create two equal columns that sits next to each other */
+.columnLeft {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  padding: 5rem 2rem;
+}
+
+/* Create two equal columns that sits next to each other */
+.columnRight {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  padding: 5rem 2rem;
+}
+
+.spaceship {
+  top: 400px;
+  right: 600px;
+}
+.orangePlanet {
+  top: 80px;
+  right: 380px;
+}
+.bluePlanet {
+  top: 300px;
+  right: 200px;
+}
+.greenPlanet {
+  top: 280px;
+  right: 390px;
+}
+
+.image4 {
+  top: 100px;
+  right: 400px;
+}
+.image5 {
+  top: 5px;
+  right: 490px;
+}
+.image6 {
+  top: 100px;
+  right: 550px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .introName {
+    margin-bottom: 0.5rem;
+    margin-left: 3rem;
+    font-size: 5rem;
+  }
+  .introDescription {
+    font-size: 2rem;
+    line-height: 1.3;
+    margin-left: 3rem;
+  }
+  .spaceship {
+    top: 600px;
+    right: 10px;
+  }
+  .orangePlanet {
+    top: 550px;
+    right: 380px;
+  }
+  .bluePlanet {
+    top: 700px;
+    right: 150px;
+  }
+  .greenPlanet {
+    top: 540px;
+    right: 300px;
+  }
+
+  .image4 {
+    top: 500px;
+    right: 190px;
+  }
+  .image5 {
+    top: 460px;
+    right: 90px;
+  }
+  .image6 {
+    top: 540px;
+    right: 70px;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+}
