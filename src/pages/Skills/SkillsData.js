@@ -12,6 +12,7 @@ import L_ANGULAR from '../../assets/img/skills/angular-icon-1.svg'
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
+import L_REACT_NATIVE from "../../assets/img/skills/react-1.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 
 //libraries
@@ -110,6 +111,12 @@ export const skills = {
       imgAltText: "React JS",
       imgSrc: L_REACT,
       skillName: "React JS",
+    },
+    {
+      link: "https://reactjs.org/",
+      imgAltText: "React Native",
+      imgSrc: L_REACT_NATIVE,
+      skillName: "React Native",
     },
     {
       link: "https://reacttraining.com/react-router/",
@@ -240,9 +247,4 @@ export const skills = {
   ]
 
 
-
-
-
-
-    
 };
