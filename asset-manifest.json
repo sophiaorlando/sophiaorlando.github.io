@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.04718cad.chunk.css",
-    "main.js": "/static/js/main.c200f7de.chunk.js",
-    "main.js.map": "/static/js/main.c200f7de.chunk.js.map",
+    "main.js": "/static/js/main.d50b4dd9.chunk.js",
+    "main.js.map": "/static/js/main.d50b4dd9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.240997d9.js",
     "runtime-main.js.map": "/static/js/runtime-main.240997d9.js.map",
     "static/css/2.86fbdad3.chunk.css": "/static/css/2.86fbdad3.chunk.css",
@@ -58,6 +58,7 @@
     "static/media/planet2.4112f282.svg": "/static/media/planet2.4112f282.svg",
     "static/media/planet3.5c3e6af2.svg": "/static/media/planet3.5c3e6af2.svg",
     "static/media/profPic2.6eda464c.jpg": "/static/media/profPic2.6eda464c.jpg",
+    "static/media/react-1.903d77ad.svg": "/static/media/react-1.903d77ad.svg",
     "static/media/react-bootstrap.534ba574.svg": "/static/media/react-bootstrap.534ba574.svg",
     "static/media/react-router.a87b7227.svg": "/static/media/react-router.a87b7227.svg",
     "static/media/react.add74742.svg": "/static/media/react.add74742.svg",
@@ -79,6 +80,6 @@
     "static/css/2.86fbdad3.chunk.css",
     "static/js/2.2e79d1a3.chunk.js",
     "static/css/main.04718cad.chunk.css",
-    "static/js/main.c200f7de.chunk.js"
+    "static/js/main.d50b4dd9.chunk.js"
   ]
 }
