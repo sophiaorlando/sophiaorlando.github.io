@@ -33,6 +33,8 @@ import I_LLF_VIDEO from '../../assets/img/projects/LLF-2.PNG';
 // Zion Video
 import I_ZION from '../../assets/img/projects/Zion.jpg';
 import I_ZION_VIDEO from '../../assets/img/projects/ZION-2.PNG';
+//mobile Deployments
+import I_PACKING_LIST from '../../assets/img/projects/PackingListDemo.gif'
 
 
 export const myProjects = {
@@ -181,6 +183,18 @@ export const myProjects = {
       video: I_ZION
 
     },
+  ],
+  mobile: [
+    {
+      imgSrc: I_PACKING_LIST,
+      filterType: "iOS App",
+      name: "Packing List 4 U",
+      id: "0",
+      description: "A React Native iOS application that is built upon the idea of de-stressing travelers as they leave their location to move onto a new destination. This is a one-time packing list app that is used as a reference to go over what travelers have and have not remembered to pack. This iOS app also boasts a fast run-time and a responsive UX/UI Layout.",
+      url: "https://apps.apple.com/us/app/packing-list-4-u/id1551224278",
+      languages: "React Native, Javascript, React Native Elements, Expo CLI, Apple Store Deployment methods",
+      video: I_PACKING_LIST
+    }
   ],
   all: [
     {

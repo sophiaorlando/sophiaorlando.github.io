@@ -10,6 +10,8 @@ import FullStackProjects from '../../components/ProjectType/FullStackProjects';
 import VideographyProjects from '../../components/ProjectType/VideographyProjects';
 import IGTVProjects from '../../components/ProjectType/IGTVProjects';
 import AllProjects from '../../components/ProjectType/AllProjects';
+import MobileProjects from '../../components/ProjectType/MobileProjects';
+
 
 
 
@@ -78,8 +80,9 @@ export default function SimpleTabs() {
           <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
             <Tab label="All Projects" {...a11yProps(0)} />
             <Tab label="Full Stack " {...a11yProps(1)} />
-            <Tab label="Videography" {...a11yProps(2)} />
-            <Tab label="IGTV" {...a11yProps(3)} />
+            <Tab label="Mobile" {...a11yProps(2)} />
+            <Tab label="Videography" {...a11yProps(3)} />
+            <Tab label="IGTV" {...a11yProps(4)} />
 
           </Tabs>
         </AppBar>
@@ -91,9 +94,12 @@ export default function SimpleTabs() {
           <FullStackProjects />
         </TabPanel>
         <TabPanel value={value} index={2}>
-          <VideographyProjects />
+          <MobileProjects />
         </TabPanel>
         <TabPanel value={value} index={3}>
+          <VideographyProjects />
+        </TabPanel>
+        <TabPanel value={value} index={4}>
           <IGTVProjects />
         </TabPanel>
       </div>

@@ -36,6 +36,8 @@ import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_GOOGLECLOUD from '../../assets/img/skills/google-cloud-1.svg'
 import L_FIREBASE from '../../assets/img/skills/firebase-1.svg'
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
+import L_APP_STORE from "../../assets/img/skills/app-store-1.svg";
+
 
 //other
 import L_ADOBE from '../../assets/img/skills/adobe-2.svg'
@@ -187,6 +189,12 @@ export const skills = {
       imgAltText: "Windows",
       imgSrc: L_WINDOWS,
       skillName: "Windows",
+    },
+    {
+      link: "https://redux.js.org/",
+      imgAltText: "Apple Store",
+      imgSrc: L_APP_STORE,
+      skillName: "Apple Store",
     },
     {
       link: "https://redux.js.org/",

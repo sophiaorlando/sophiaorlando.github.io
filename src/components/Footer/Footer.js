@@ -37,7 +37,7 @@ export default function SimpleBottomNavigation() {
       <MyBottomNavigationAction label="GitHub" icon={<GitHubIcon onClick={() => window.open("https://github.com/sophiaorlando", "_blank")} />} />
       <MyBottomNavigationAction label="LinkedIn" icon={<LinkedInIcon onClick={event => window.open("https://www.linkedin.com/in/sophia-m-orlando/", "_blank")} />} />
       <MyBottomNavigationAction label="Email Me" icon={<MailOutlineIcon onClick={event => window.open("mailto:sophia19orlando@gmail.com", "_blank")} />} />
-      <MyBottomNavigationAction label="Resume" icon={<GetAppIcon onClick={event => window.location.href = ("https://docs.google.com/document/d/1xRxno2DbYRoa2em5SR6_FY3u1pGXikhC5WwmlRCsvIg/export?format=pdf")} />}
+      <MyBottomNavigationAction label="Resume" icon={<GetAppIcon onClick={event => window.open("https://docs.google.com/document/d/1xRxno2DbYRoa2em5SR6_FY3u1pGXikhC5WwmlRCsvIg/export?format=pdf")} />}
       />
 
     </BottomNavigation>

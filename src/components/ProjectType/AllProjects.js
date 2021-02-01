@@ -16,6 +16,8 @@ import LaunchIcon from '@material-ui/icons/Launch';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Grid from '@material-ui/core/Grid';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import AppleIcon from '@material-ui/icons/Apple';
+
 
 import { myProjects } from './ProjectsData'
 
@@ -61,6 +63,52 @@ function ProjectPage(props) {
     <div>
       {/* <ProjectTabs /> */}
       <Grid container spacing={2} className={classes.grid}>
+
+        {myProjects.mobile.map((project, i) => (
+          <Grid item xs={12} md={4}>
+
+            <Card className={classes.root} key={project.id}>
+              <CardHeader
+                avatar={
+                  <Avatar aria-label="recipe" className={classes.avatar}>
+                    SMO
+          </Avatar>
+                }
+                title={project.name}
+                subheader={project.filterType}
+              />
+              <CardMedia
+                className={classes.media}
+                image={project.video}
+                title="Paella dish"
+              />
+              <CardActions disableSpacing>
+                <IconButton aria-label="add to favorites" onClick={() => window.open(`${project.url}`)}>
+                  <AppleIcon />
+                </IconButton>
+                <IconButton aria-label="share" onClick={() => window.open(`${project.url}`)}>
+                  {/* <LaunchIcon /> */}
+                </IconButton>
+                <IconButton
+
+                  onClick={() => handleExpandClick(i)}
+                  aria-expanded={expanded === i}
+                  aria-label="show more"
+                >
+                  <ExpandMoreIcon />
+                </IconButton>
+              </CardActions>
+              <Collapse in={expanded === i} timeout="auto" unmountOnExit>
+                <CardContent>
+                  <Typography paragraph>{project.description}</Typography>
+                </CardContent>
+              </Collapse>
+            </Card>
+
+          </Grid>
+
+        ))}
+
         {myProjects.fullStack.map((project, i) => (
           <Grid item xs={12} md={4}>
 
@@ -105,6 +153,7 @@ function ProjectPage(props) {
           </Grid>
 
         ))}
+
 
         {myProjects.videography.map((project, i) => (
           <Grid item xs={12} md={4}>
