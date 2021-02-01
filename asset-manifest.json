@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.04718cad.chunk.css",
-    "main.js": "/static/js/main.ffc74c28.chunk.js",
-    "main.js.map": "/static/js/main.ffc74c28.chunk.js.map",
+    "main.js": "/static/js/main.c62a8bb3.chunk.js",
+    "main.js.map": "/static/js/main.c62a8bb3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.240997d9.js",
     "runtime-main.js.map": "/static/js/runtime-main.240997d9.js.map",
     "static/css/2.86fbdad3.chunk.css": "/static/css/2.86fbdad3.chunk.css",
-    "static/js/2.2e79d1a3.chunk.js": "/static/js/2.2e79d1a3.chunk.js",
-    "static/js/2.2e79d1a3.chunk.js.map": "/static/js/2.2e79d1a3.chunk.js.map",
+    "static/js/2.5fda3a6c.chunk.js": "/static/js/2.5fda3a6c.chunk.js",
+    "static/js/2.5fda3a6c.chunk.js.map": "/static/js/2.5fda3a6c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.86fbdad3.chunk.css.map": "/static/css/2.86fbdad3.chunk.css.map",
     "static/css/main.04718cad.chunk.css.map": "/static/css/main.04718cad.chunk.css.map",
-    "static/js/2.2e79d1a3.chunk.js.LICENSE.txt": "/static/js/2.2e79d1a3.chunk.js.LICENSE.txt",
+    "static/js/2.5fda3a6c.chunk.js.LICENSE.txt": "/static/js/2.5fda3a6c.chunk.js.LICENSE.txt",
     "static/media/BudgetTracker.dfd49552.png": "/static/media/BudgetTracker.dfd49552.png",
     "static/media/BudgetTrackerDemo.cda8ef8b.gif": "/static/media/BudgetTrackerDemo.cda8ef8b.gif",
     "static/media/Disney-1.19ce923b.png": "/static/media/Disney-1.19ce923b.png",
@@ -24,6 +24,7 @@
     "static/media/LLF-2.8aa9bb7c.PNG": "/static/media/LLF-2.8aa9bb7c.PNG",
     "static/media/LLF.a47388b8.jpg": "/static/media/LLF.a47388b8.jpg",
     "static/media/NYTSearch.fe4736fa.gif": "/static/media/NYTSearch.fe4736fa.gif",
+    "static/media/PackingListDemo.707fb019.gif": "/static/media/PackingListDemo.707fb019.gif",
     "static/media/Project2Demo.4b55586b.gif": "/static/media/Project2Demo.4b55586b.gif",
     "static/media/Project3Demo.a630d657.gif": "/static/media/Project3Demo.a630d657.gif",
     "static/media/SneakerFreakers.b847f30f.png": "/static/media/SneakerFreakers.b847f30f.png",
@@ -33,6 +34,7 @@
     "static/media/Zion.555bab88.jpg": "/static/media/Zion.555bab88.jpg",
     "static/media/adobe-2.54e87983.svg": "/static/media/adobe-2.54e87983.svg",
     "static/media/angular-icon-1.28ae4f3c.svg": "/static/media/angular-icon-1.28ae4f3c.svg",
+    "static/media/app-store-1.7c2cecd7.svg": "/static/media/app-store-1.7c2cecd7.svg",
     "static/media/ContactForm.css": "/static/media/background.48c0b661.webp",
     "static/media/beachImg.24dbaa72.png": "/static/media/beachImg.24dbaa72.png",
     "static/media/bootstrap-4.997c463d.svg": "/static/media/bootstrap-4.997c463d.svg",
@@ -78,8 +80,8 @@
   "entrypoints": [
     "static/js/runtime-main.240997d9.js",
     "static/css/2.86fbdad3.chunk.css",
-    "static/js/2.2e79d1a3.chunk.js",
+    "static/js/2.5fda3a6c.chunk.js",
     "static/css/main.04718cad.chunk.css",
-    "static/js/main.ffc74c28.chunk.js"
+    "static/js/main.c62a8bb3.chunk.js"
   ]
 }
