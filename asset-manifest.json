@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.04718cad.chunk.css",
-    "main.js": "/static/js/main.c62a8bb3.chunk.js",
-    "main.js.map": "/static/js/main.c62a8bb3.chunk.js.map",
+    "main.js": "/static/js/main.2adbd4c2.chunk.js",
+    "main.js.map": "/static/js/main.2adbd4c2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.240997d9.js",
     "runtime-main.js.map": "/static/js/runtime-main.240997d9.js.map",
     "static/css/2.86fbdad3.chunk.css": "/static/css/2.86fbdad3.chunk.css",
@@ -42,6 +42,7 @@
     "static/media/express.75fff9be.svg": "/static/media/express.75fff9be.svg",
     "static/media/firebase-1.e6583a29.svg": "/static/media/firebase-1.e6583a29.svg",
     "static/media/galaxy.20c715cc.jpg": "/static/media/galaxy.20c715cc.jpg",
+    "static/media/galaxy.ce1cdc6c.jpg": "/static/media/galaxy.ce1cdc6c.jpg",
     "static/media/github.740db6be.svg": "/static/media/github.740db6be.svg",
     "static/media/google-cloud-1.e929444a.svg": "/static/media/google-cloud-1.e929444a.svg",
     "static/media/heroku.73be03b3.svg": "/static/media/heroku.73be03b3.svg",
@@ -82,6 +83,6 @@
     "static/css/2.86fbdad3.chunk.css",
     "static/js/2.5fda3a6c.chunk.js",
     "static/css/main.04718cad.chunk.css",
-    "static/js/main.c62a8bb3.chunk.js"
+    "static/js/main.2adbd4c2.chunk.js"
   ]
 }
