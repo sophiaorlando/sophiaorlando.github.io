@@ -71,6 +71,23 @@ function Skills() {
                 </Card.Body>
               </Card>
 
+              <Card className="focus mt-2 mb-2">
+                <Card.Body>
+                  <Card.Title className="text-center  card-title">Databases</Card.Title>
+                  <hr />
+                  <Card.Text className="card-text d-flex justify-content-start flex-column">
+                    {skills.databases.map((skill, index) => (
+                      <span className="p-2" key={index}>
+                        <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
+                          <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                        </a>
+                      </span>
+                    ))}
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+
+
               {/* Libraries
             <Card className="focus mt-2 mb-2 ">
               <Card.Body>
@@ -131,9 +148,9 @@ function Skills() {
 
               {/* Database */}
 
-              <Card className="focus mt-2 mb-2">
+              {/* <Card className="focus mt-2 mb-2">
                 <Card.Body>
-                  <Card.Title className="text-center  card-title">Database</Card.Title>
+                  <Card.Title className="text-center  card-title">Databases</Card.Title>
                   <hr />
                   <Card.Text className="card-text d-flex justify-content-start flex-column">
                     {skills.databases.map((skill, index) => (
@@ -145,13 +162,13 @@ function Skills() {
                     ))}
                   </Card.Text>
                 </Card.Body>
-              </Card>
+              </Card> */}
 
               {/* Other */}
 
               <Card className="focus mt-2 mb-2">
                 <Card.Body>
-                  <Card.Title className="text-center  card-title">Other Practices</Card.Title>
+                  <Card.Title className="text-center  card-title">Other Tools</Card.Title>
                   <hr />
                   <Card.Text className="card-text d-flex justify-content-start flex-column">
                     {skills.other.map((skill, index) => (

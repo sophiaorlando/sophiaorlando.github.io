@@ -45,15 +45,6 @@ import L_ADOBEPHOTOSHOP from '../../assets/img/skills/photoshop-cc.svg'
 import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 
 
-
-
-
-
-
-
-
-
-
 export const skills = {
   languages: [
     {
@@ -102,36 +93,12 @@ export const skills = {
       skillName: "React Bootstrap",
     },
 
+
     {
-      link: "https://getbootstrap.com/",
-      imgAltText: "MomentJS",
-      imgSrc: L_MOMENTJS,
-      skillName: "MomentJS",
-    },
-    {
-      link: "https://reactjs.org/",
-      imgAltText: "React JS",
-      imgSrc: L_REACT,
-      skillName: "React JS",
-    },
-    {
-      link: "https://reactjs.org/",
+      link: "https://reactnative.dev/",
       imgAltText: "React Native",
       imgSrc: L_REACT_NATIVE,
       skillName: "React Native",
-    },
-    {
-      link: "https://reacttraining.com/react-router/",
-      imgAltText: "React Router",
-      imgSrc: L_REACT_ROUTER,
-      skillName: "React Router",
-    },
-
-    {
-      link: "https://reactjs.org/",
-      imgAltText: "Angular",
-      imgSrc: L_ANGULAR,
-      skillName: "Angular",
     },
 
     {
@@ -143,16 +110,43 @@ export const skills = {
   ],
   libraries: [
     {
-      link: "https://getbootstrap.com/",
+      link: "https://jquery.com/",
       imgAltText: "jQuery",
       imgSrc: L_JQUERY,
       skillName: "jQuery",
+
+    },
+    {
+      link: "https://reactjs.org/",
+      imgAltText: "React JS",
+      imgSrc: L_REACT,
+      skillName: "React JS",
     },
     {
       link: "https://redux.js.org/",
       imgAltText: "Redux",
       imgSrc: L_REDUX,
       skillName: "Redux",
+    },
+
+    {
+      link: "https://reacttraining.com/react-router/",
+      imgAltText: "React Router",
+      imgSrc: L_REACT_ROUTER,
+      skillName: "React Router",
+    },
+
+    {
+      link: "https://momentjs.com/",
+      imgAltText: "MomentJS",
+      imgSrc: L_MOMENTJS,
+      skillName: "MomentJS",
+    },
+    {
+      link: "https://styled-components.com/",
+      imgAltText: "styled-components",
+      imgSrc: L_STYLED_COMPONENTS,
+      skillName: "styled-components",
     },
   ],
   backend: [
@@ -185,28 +179,10 @@ export const skills = {
   ],
   platforms: [
     {
-      link: "https://redux.js.org/",
-      imgAltText: "Windows",
-      imgSrc: L_WINDOWS,
-      skillName: "Windows",
-    },
-    {
-      link: "https://redux.js.org/",
+      link: "https://tv.apple.com/show/umc.cmc.5iswprrvjjw6ab020a17x4ca3?itscg=10000&itsct=atv-apl_hp-tk_hro-snoopy-210127",
       imgAltText: "Apple Store",
       imgSrc: L_APP_STORE,
       skillName: "Apple Store",
-    },
-    {
-      link: "https://redux.js.org/",
-      imgAltText: "MacOS",
-      imgSrc: L_MACOS,
-      skillName: "MacOS",
-    },
-    {
-      link: "https://redux.js.org/",
-      imgAltText: "Terminal",
-      imgSrc: L_TERMINAL,
-      skillName: "Terminal",
     },
     {
       link: "https://www.heroku.com/",
@@ -215,13 +191,13 @@ export const skills = {
       skillName: "Heroku",
     },
     {
-      link: "https://www.heroku.com/",
+      link: "https://cloud.google.com/?utm_source=google&utm_medium=cpc&utm_campaign=na-US-all-en-dr-bkws-all-all-trial-e-dr-1009892&utm_content=text-ad-none-any-DEV_c-CRE_491349594127-ADGP_Desk%20%7C%20BKWS%20-%20-%20Core%20EXA%20%7C%20Txt%20~%20Cloud-KWID_43700060017921803-kwd-6458750523&utm_term=KW_google%20cloud-ST_google%20cloud&gclid=Cj0KCQiA34OBBhCcARIsAG32uvMuvj8ROEriesaUD4_DWBcQy6dFX1kXfTBa5C_BDl6Or7_tQzOQxoQaAj4AEALw_wcB",
       imgAltText: "Google Cloud",
       imgSrc: L_GOOGLECLOUD,
       skillName: "Google Cloud",
     },
     {
-      link: "https://www.heroku.com/",
+      link: "https://firebase.google.com/",
       imgAltText: "Firebase",
       imgSrc: L_FIREBASE,
       skillName: "Firebase",
@@ -234,20 +210,15 @@ export const skills = {
     },
   ],
   other: [
+
     {
-      link: "https://styled-components.com/",
-      imgAltText: "styled-components",
-      imgSrc: L_STYLED_COMPONENTS,
-      skillName: "styled-components",
-    },
-    {
-      link: "https://styled-components.com/",
+      link: "https://www.adobe.com/creativecloud/business/teams.html?sdid=KKQWX&mv=search&ef_id=Cj0KCQiA34OBBhCcARIsAG32uvPUx9uArDhSaStWXM15nK-CnPRxOytz5noYEhDYYquhCX4N2QLEf4EaAoZgEALw_wcB:G:s&s_kwcid=AL!3085!3!442564041960!e!!g!!adobe&gclid=Cj0KCQiA34OBBhCcARIsAG32uvPUx9uArDhSaStWXM15nK-CnPRxOytz5noYEhDYYquhCX4N2QLEf4EaAoZgEALw_wcB",
       imgAltText: "Adobe",
       imgSrc: L_ADOBE,
       skillName: "Adobe",
     },
     {
-      link: "https://styled-components.com/",
+      link: "https://www.adobe.com/products/photoshop.html?sdid=KKQIN&mv=search&kw=photoshop&ef_id=Cj0KCQiA34OBBhCcARIsAG32uvP7_IpU9ENhT1EIo8Mb24wazhH8eEl-ThgtsL04DvgELKGUpksJ5NgaArFHEALw_wcB:G:s&s_kwcid=AL!3085!3!442365416141!e!!g!!adobe%20photoshop&gclid=Cj0KCQiA34OBBhCcARIsAG32uvP7_IpU9ENhT1EIo8Mb24wazhH8eEl-ThgtsL04DvgELKGUpksJ5NgaArFHEALw_wcB",
       imgAltText: "Adobe Photoshop",
       imgSrc: L_ADOBEPHOTOSHOP,
       skillName: "Adobe Photoshop",

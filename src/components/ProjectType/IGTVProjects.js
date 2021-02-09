@@ -23,6 +23,7 @@ import { myProjects } from './ProjectsData'
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
+
   },
   grid: {
     width: "100%",

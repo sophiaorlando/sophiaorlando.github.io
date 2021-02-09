@@ -15,6 +15,7 @@ import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Grid from '@material-ui/core/Grid';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import galaxy from '../../assets/img/projects/galaxy.jpg'
 
 
 import { myProjects } from './ProjectsData'
@@ -23,6 +24,9 @@ import { myProjects } from './ProjectsData'
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
+  },
+  cardHeaderText: {
+
   },
   grid: {
     width: "100%",
@@ -66,10 +70,11 @@ function ProjectPage(props) {
 
             <Card className={classes.root} key={project.id}>
               <CardHeader
+                className={classes.cardHeaderText}
                 avatar={
                   <Avatar aria-label="recipe" className={classes.avatar}>
                     SMO
-          </Avatar>
+                    </Avatar>
                 }
                 title={project.name}
                 subheader={project.filterType}
